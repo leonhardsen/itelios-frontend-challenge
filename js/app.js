@@ -18,4 +18,5 @@ window.onresize = function() {
 	}
 };
 
+request();
 window.onresize();

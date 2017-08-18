@@ -35,7 +35,7 @@ module.exports = function(grunt) {
 				separator: ';'				
 			},
 			dist: {
-				src: ['js/carousel.js','js/app.js'],
+				src: ['js/carousel.js','js/product.js','js/request.js','js/app.js'],
 				dest: 'temp/js/app-concatenated.js'
 			}
 		},
