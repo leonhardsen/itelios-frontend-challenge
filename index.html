@@ -6,11 +6,65 @@
 
 	<title>Recommendation Widget</title>
 
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:400,900">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
 </head>
 <body>
 
-	
+	<div class="recommendation-widget">
+		<div class="visited">
+			<p class="title">Você visitou:</p>
+			<div class="product">
+				<img src="dist/img/product.jpg">
+				<p class="name">Tablet Samsung Galaxy Tab2 7.0 P3100 Branco com Tela 7,0”, Processador Dual Core...</p>
+				<p class="price">Por: <span>R$ 1.199,00</span></p>
+				<p class="conditions">ou <span>12x de R$99,92</span> sem juros</p>
+			</div>
+		</div>
+		<div class="recommendations">
+			<p class="title">e talvez se interesse por:</p>
+			<div class="recommendations-carousel">
+				<div class="recommendations-carousel-inner">
+					<div class="product">
+						<img src="dist/img/product.jpg">
+						<p class="name">Tablet Samsung Galaxy Tab2 7.0 P3100 Branco com Tela 7,0”, Processador Dual Core...</p>
+						<p class="price">Por: <span>R$ 1.199,00</span></p>
+						<p class="conditions">ou <span>12x de R$99,92</span> sem juros</p>
+						<button class="cart-button">
+							<span>adicionar ao carrinho</span>
+							<i class="material-icons">add_shopping_cart</i>
+						</button>
+					</div>
+					<div class="product">
+						<img src="dist/img/product.jpg">
+						<p class="name">Tablet Samsung Galaxy Tab2 7.0 P3100 Branco com Tela 7,0”, Processador Dual Core...</p>
+						<p class="price">Por: <span>R$ 1.199,00</span></p>
+						<p class="conditions">ou <span>12x de R$99,92</span> sem juros</p>
+						<button class="cart-button">
+							<span>adicionar ao carrinho</span>
+							<i class="material-icons">add_shopping_cart</i>
+						</button>
+					</div>
+					<div class="product">
+						<img src="dist/img/product.jpg">
+						<p class="name">Tablet Samsung Galaxy Tab2 7.0 P3100 Branco com Tela 7,0”, Processador Dual Core...</p>
+						<p class="price">Por: <span>R$ 1.199,00</span></p>
+						<p class="conditions">ou <span>12x de R$99,92</span> sem juros</p>
+						<button class="cart-button">
+							<span>adicionar ao carrinho</span>
+							<i class="material-icons">add_shopping_cart</i>
+						</button>
+					</div>							
+				</div>
+				<div class="recommendations-carousel-nav">
+					<button class="recommendations-carousel-dot recommendations-carousel-dot-active"></button>
+					<button class="recommendations-carousel-dot"></button>
+					<button class="recommendations-carousel-dot"></button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<script type="text/javascript" src="dist/js/app.min.js"></script>
 </body>
