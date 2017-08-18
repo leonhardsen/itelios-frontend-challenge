@@ -323,3 +323,76 @@ body {
 .recommendation-widget .product.clicked .cart-button:hover i {
   color: #ff6600;
 }
+@media screen and (max-width: 1280px) {
+  .recommendation-widget {
+    margin: 25px 20px 0;
+    font-size: 11px;
+  }
+  .recommendation-widget .product p {
+    font-size: 1.1em;
+  }
+  .recommendation-widget .product .conditions {
+    font-size: 1em;
+  }
+  .recommendation-widget .product .cart-button {
+    font-size: 1.3em;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .recommendation-widget .visited {
+    width: 33.33%;
+  }
+  .recommendation-widget .recommendations {
+    width: 66.66%;
+  }
+  .recommendation-widget .recommendations .product {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .recommendation-widget .product p {
+    font-size: 1em;
+  }
+  .recommendation-widget .product .name {
+    height: 5em;
+  }
+  .recommendation-widget .product .conditions {
+    height: 2em;
+    font-size: 1em;
+  }
+  .recommendation-widget .product .cart-button {
+    font-size: 1em;
+  }
+  .recommendation-widget .product:hover .cart-button,
+  .recommendation-widget .product.clicked .cart-button {
+    padding: 7px;
+  }
+  .recommendation-widget .product:hover .cart-button:hover,
+  .recommendation-widget .product.clicked .cart-button:hover {
+    border-left: 4px solid #ff6600;
+  }
+}
+@media screen and (max-width: 620px) {
+  .recommendation-widget .title {
+    font-size: 1.8em;
+  }
+  .recommendation-widget .visited {
+    width: 50%;
+  }
+  .recommendation-widget .recommendations {
+    width: 50%;
+  }
+  .recommendation-widget .recommendations .product {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .recommendation-widget .visited {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .recommendation-widget .recommendations {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
